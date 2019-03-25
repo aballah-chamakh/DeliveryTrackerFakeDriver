@@ -43,9 +43,3 @@ class Driver :
                                       on_close = on_close)
 
             ws.run_forever()
-
-
-# class DriverManger(Thread):
-#
-#     def run():
-#         self.driver_obj = Driver(email,password,starting_coordinates)
